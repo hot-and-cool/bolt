@@ -24,9 +24,7 @@ a {
   width: 1100px;
 }
 
-.header,
-.main,
-.footer {
+.header {
   width: 100%;
 }
 
@@ -142,11 +140,12 @@ a {
   transition: 0.3s;
 }
 
-.box-list a {
+.box {
   opacity: 0.7;
+  display: inline-block;
 }
 
-.box-list a:hover {
+.box:hover {
   opacity: 1;
 }
 
@@ -229,12 +228,12 @@ a {
   transition: 0.3s;
 }
 
-.area__box__icon a {
+.icon {
   display: block;
   padding: 40px 0;
 }
 
-.area__box__icon:hover {
+.icon:hover {
   background-color: #fff;
 }
 
@@ -324,6 +323,10 @@ a {
 
   .skills__box__circle:last-child {
     margin-bottom: 0;
+  }
+
+  .area__box__icon {
+    width: 25%;
   }
 
   .area__box__icon__mark {
